@@ -5,15 +5,22 @@ import React from 'react';
 const About = () => {
     return (
         <>
-            <div className='bg-gray-900 text-white py-12'>
+            <div className='bg-gray-900 text-white py-12' id='about'>
                 <div className='max-w-screen-xl mx-auto p-4 flex flex-col items-center md:space-x-10'>
                     <div className="text-center md:text-left">
                         <h1 className="text-5xl font-bold mb-4">
-                        About Me
+                            About Me
                         </h1>
                         <h1>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi iure vero ullam! Fugit consequuntur accusantium sit molestiae est dolor necessitatibus doloremque amet voluptatem. Saepe fuga error aut facere maiores ipsum consequuntur est officiis tempora libero perspiciatis dolorum placeat, repudiandae ipsam? Totam, vero, sint ducimus inventore ipsum soluta illum aperiam hic aut nobis similique, veritatis illo autem omnis odio doloremque sequi nisi et incidunt quis tenetur. Voluptate repellendus eligendi sint voluptates, quos possimus dolore sunt facere vero ut placeat ad nostrum officia, corrupti at est temporibus natus cum exercitationem architecto odio tempora quibusdam, necessitatibus recusandae. Id impedit omnis quae blanditiis, quasi tempore nemo. Quos, sapiente delectus? Laudantium alias, aliquid facere soluta laborum eos delectus suscipit. Quam, a! Aperiam deserunt sint laboriosam voluptatum aliquam cumque, illum eius nesciunt ipsa necessitatibus, nulla quisquam, maxime exercitationem officiis nisi excepturi? Quis beatae veritatis at molestiae pariatur maxime perferendis voluptatem non vel! Accusamus, vel aliquid harum consectetur eligendi nemo corrupti saepe nulla, temporibus nisi, omnis voluptates laudantium veniam expedita asperiores illo magnam aliquam atque minus provident pariatur architecto eaque ullam! Exercitationem, vitae. Quasi soluta nobis porro ipsa molestias facilis sit est voluptatem suscipit inventore unde ab eos voluptate nihil ipsam laborum voluptas nemo, omnis qui. Culpa!
+                            Fourth semester Informatics Engineering student at Del Institute of Technology who has an interest in developing skills in the developer field, especially Frontend Developer, Backend Developer, and Full-Stack Developer. Has experience in project assignments and being a teaching assistant in the field of database management systems that perform several development methods, including web application development and API development. Have experience in performing several development methods, including proficiency in using SQL Query, Normalization, and MS. Access. I have expertise in creating clean program code to ensure programs are easy to develop and easy to read, able to communicate well, and can work in a team. I can operate several development tools, such as Visual Studio Code, Postman, and XAMPP. Extensive experience and expertise can make a positive contribution to the company's bottom line.
                         </h1>
+                        <a
+                            href="/resume/CV-SamuelAlbiPuloS.pdf"
+                            download
+                            className="mt-4 inline-block bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-700 transition duration-300"
+                        >
+                            Download CV
+                        </a>
                     </div>
                 </div>
             </div>
@@ -22,3 +29,4 @@ const About = () => {
 };
 
 export default About;
+
