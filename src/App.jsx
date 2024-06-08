@@ -1,5 +1,6 @@
 import './App.css'
 import About from './utils/about'
+import Certificate from './utils/certificate'
 import Footer from './utils/footer'
 import Intro from './utils/intro'
 import Navbar from './utils/navbar'
@@ -14,6 +15,7 @@ function App() {
       <Intro />
       <About />
       <Portfolio />
+      <Certificate />
       <Skills />
       <Footer />
     </>
