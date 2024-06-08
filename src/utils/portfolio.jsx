@@ -32,7 +32,7 @@ const Portfolio = () => {
         <>
             <div className='bg-gray-900 text-white py-24' id='project'>
                 <div className='max-w-screen-xl mx-auto p-4' data-aos="fade-up">
-                    <h1 className="text-5xl font-bold">Portfolio</h1>
+                    <h1 className="text-5xl font-bold">Project</h1>
 
                     <div className='md:grid md:grid-cols-3 md:gap-8'>
 
