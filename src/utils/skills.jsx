@@ -1,7 +1,8 @@
 /* eslint-disable react/no-unescaped-entities */
 // eslint-disable-next-line no-unused-vars
-import React, { useState } from 'react';
-
+import React, { useState, useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 const Skills = () => {
     const [selectedContent, setSelectedContent] = useState('programmingLanguages');
 
@@ -10,14 +11,18 @@ const Skills = () => {
         setSelectedContent(content);
     };
 
+    useEffect(() => {
+        AOS.init();
+    }, [])
     return (
+
         <>
-            <div className='bg-gray-900 text-white pt-24'>
-                <div className='max-w-screen-xl mx-auto p-4'>
+            <div className='bg-gray-900 text-white pt-24' id='skill' >
+                <div className='max-w-screen-xl mx-auto p-4' >
                     <div className="text-center md:text-left">
                         <nav className="flex" aria-label="Breadcrumb">
-                            <ol className="inline-flex items-center space-x-1 md:space-x-2 rtl:space-x-reverse">
-                                <li className="inline-flex items-center">
+                            <ol className="inline-flex items-center space-x-1 md:space-x-2 rtl:space-x-reverse" data-aos="fade-up">
+                                <li className="inline-flex items-center" >
                                     <a
 
                                         href="#"
@@ -58,10 +63,10 @@ const Skills = () => {
 
                         {selectedContent === 'programmingLanguages' && (
                             <>
-                                <h1 className='text-3xl font-semibold mb-4 mt-5'>Programming Languages</h1>
+                                <h1 className='text-3xl font-semibold mb-4 mt-5' data-aos="fade-up">Programming Languages</h1>
 
 
-                                <div className="flex flex-wrap justify-center md:justify-start gap-10 py-5">
+                                <div className="flex flex-wrap justify-center md:justify-start gap-10 py-5" data-aos="fade-up">
                                     <div className="card relative w-64 h-16 border-2 border-gray-800 rounded-lg overflow-hidden">
                                         <div className="card-default-content absolute inset-0 flex items-center justify-center bg-gray-800 transition-opacity duration-300">
                                             <img
@@ -138,7 +143,7 @@ const Skills = () => {
                                         </div>
                                         <div className="card-hover-content absolute inset-0 flex flex-col items-center justify-center bg-gray-800 transition-opacity duration-300 opacity-0">
                                             <div>
-                                                <span className="text-blue-200 font-semibold">Advanced</span>
+                                                <span className="text-blue-200 font-semibold">Intermediate</span>
                                             </div>
                                         </div>
                                     </div>
@@ -321,9 +326,9 @@ const Skills = () => {
 
                                 </div>
 
-                                <h1 className='text-3xl font-semibold mt-12'>Framework</h1>
+                                <h1 className='text-3xl font-semibold mt-12' data-aos="fade-up">Framework</h1>
 
-                                <div className="flex flex-wrap justify-center md:justify-start gap-10 py-5">
+                                <div className="flex flex-wrap justify-center md:justify-start gap-10 py-5" data-aos="fade-up">
 
 
                                     <div className="card relative w-64 h-16 border-2 border-gray-800 rounded-lg overflow-hidden">
@@ -439,8 +444,8 @@ const Skills = () => {
 
                         {selectedContent === 'tools' && (
                             <>
-                                <h1 className='text-3xl font-semibold mb-4 mt-5'>Design</h1>
-                                <div className='flex flex-wrap justify-center md:justify-start gap-10 py-5'>
+                                <h1 className='text-3xl font-semibold mb-4 mt-5' data-aos="fade-up">Design</h1>
+                                <div className='flex flex-wrap justify-center md:justify-start gap-10 py-5' data-aos="fade-up">
 
                                     <div className="card relative w-64 h-16 border-2 border-gray-800 rounded-lg overflow-hidden">
                                         <div className="card-default-content absolute inset-0 flex items-center justify-center bg-gray-800 transition-opacity duration-300">
@@ -489,8 +494,8 @@ const Skills = () => {
 
                                 </div>
 
-                                <h1 className='text-3xl font-semibold mb-4 mt-12'>Editor & Modeling</h1>
-                                <div className='flex flex-wrap justify-center md:justify-start gap-10 py-5'>
+                                <h1 className='text-3xl font-semibold mb-4 mt-12' data-aos="fade-up">Editor & Modeling</h1>
+                                <div className='flex flex-wrap justify-center md:justify-start gap-10 py-5' data-aos="fade-up">
                                     {/* Editor and Modeling Tools Icons */}
 
 
@@ -591,8 +596,8 @@ const Skills = () => {
 
                                 </div>
 
-                                <h1 className='text-3xl font-semibold mb-4 mt-12'>Version Control</h1>
-                                <div className='flex flex-wrap justify-center md:justify-start gap-10 py-5'>
+                                <h1 className='text-3xl font-semibold mb-4 mt-12' data-aos="fade-up">Version Control</h1>
+                                <div className='flex flex-wrap justify-center md:justify-start gap-10 py-5' data-aos="fade-up">
 
                                     <div className="card relative w-64 h-16 border-2 border-gray-800 rounded-lg overflow-hidden">
                                         <div className="card-default-content absolute inset-0 flex items-center justify-center bg-gray-800 transition-opacity duration-300">
