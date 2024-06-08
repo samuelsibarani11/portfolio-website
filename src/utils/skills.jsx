@@ -193,7 +193,7 @@ const Skills = () => {
                                         </div>
                                         <div className="card-hover-content absolute inset-0 flex flex-col items-center justify-center bg-gray-800 transition-opacity duration-300 opacity-0">
                                             <div>
-                                                <span className="text-blue-200 font-semibold">Beginer</span>
+                                                <span className="text-blue-200 font-semibold">Beginner</span>
                                             </div>
                                         </div>
                                     </div>
@@ -302,7 +302,7 @@ const Skills = () => {
                                         </div>
                                         <div className="card-hover-content absolute inset-0 flex flex-col items-center justify-center bg-gray-800 transition-opacity duration-300 opacity-0">
                                             <div>
-                                                <span className="text-blue-200 font-semibold">Beginer</span>
+                                                <span className="text-blue-200 font-semibold">Beginner</span>
                                             </div>
                                         </div>
                                     </div>
@@ -318,7 +318,7 @@ const Skills = () => {
                                         </div>
                                         <div className="card-hover-content absolute inset-0 flex flex-col items-center justify-center bg-gray-800 transition-opacity duration-300 opacity-0">
                                             <div>
-                                                <span className="text-blue-200 font-semibold">Beginer</span>
+                                                <span className="text-blue-200 font-semibold">Beginner</span>
                                             </div>
                                         </div>
                                     </div>
@@ -371,7 +371,7 @@ const Skills = () => {
                                         </div>
                                         <div className="card-hover-content absolute inset-0 flex flex-col items-center justify-center bg-gray-800 transition-opacity duration-300 opacity-0">
                                             <div>
-                                                <span className="text-blue-200 font-semibold">Beginer</span>
+                                                <span className="text-blue-200 font-semibold">Beginner</span>
                                             </div>
                                         </div>
                                     </div>
@@ -541,7 +541,7 @@ const Skills = () => {
                                         </div>
                                         <div className="card-hover-content absolute inset-0 flex flex-col items-center justify-center bg-gray-800 transition-opacity duration-300 opacity-0">
                                             <div>
-                                                <span className="text-blue-200 font-semibold">Beginer</span>
+                                                <span className="text-blue-200 font-semibold">Beginner</span>
                                             </div>
                                         </div>
                                     </div>
@@ -573,7 +573,7 @@ const Skills = () => {
                                         </div>
                                         <div className="card-hover-content absolute inset-0 flex flex-col items-center justify-center bg-gray-800 transition-opacity duration-300 opacity-0">
                                             <div>
-                                                <span className="text-blue-200 font-semibold">Beginer</span>
+                                                <span className="text-blue-200 font-semibold">Beginner</span>
                                             </div>
                                         </div>
                                     </div>
