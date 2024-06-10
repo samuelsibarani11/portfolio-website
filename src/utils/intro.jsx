@@ -8,7 +8,7 @@ const Intro = () => {
         <div className="bg-gray-900 text-white min-h-screen flex flex-col-reverse md:flex-row items-center justify-center py-24">
             <div className="max-w-screen-xl mx-auto flex flex-col md:flex-row items-center md:space-x-10 space-y-8 md:space-y-0">
                 <div className="flex-shrink-0 px-4 md:px-0">
-                    <img src="/images/profile_picture-porto.jpg" alt="Profile" className="w-48 h-48 md:w-96 md:h-96 object-cover rounded-full" />
+                    <img src="/images/pp-2.jpg" alt="Profile" className="w-48 h-48 md:w-96 md:h-96 object-cover rounded-full" />
                 </div>
                 <div className="text-left px-4 md:px-0">
                     <h1 className="text-5xl font-bold mb-4">

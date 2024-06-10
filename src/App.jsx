@@ -11,13 +11,13 @@ import Skills from './utils/skills'
 function App() {
   return (
     <>
-      <Navbar />
-      <Intro />
-      <About />
-      <Portfolio />
-      <Certificate />
-      <Skills />
-      <Footer />
+        <Navbar />
+        <Intro />
+        <About />
+        <Portfolio />
+        <Certificate />
+        <Skills />
+        <Footer />
     </>
   )
 }
